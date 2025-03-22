@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T14:36:18 ICT" name="Surefire suite" finished-at="2025-02-20T14:36:31 ICT" duration-ms="12928">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T14:36:18 ICT" name="Surefire test" finished-at="2025-02-20T14:36:31 ICT" duration-ms="12928">
+      <class name="org.example.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:18 ICT" name="setUp" finished-at="2025-02-20T14:36:22 ICT" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enterIsWorking()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:22 ICT" name="enterIsWorking" description="Verify Enter is working" finished-at="2025-02-20T14:36:25 ICT" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterIsWorking -->
+        <test-method signature="loginFail()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:25 ICT" name="loginFail" description="Verify failed login" finished-at="2025-02-20T14:36:26 ICT" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFail -->
+        <test-method signature="loginFieldBlank()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:26 ICT" name="loginFieldBlank" description="Verify blank field" finished-at="2025-02-20T14:36:28 ICT" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFieldBlank -->
+        <test-method signature="loginSucess()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:28 ICT" name="loginSucess" description="Verify successful login and account visibility" finished-at="2025-02-20T14:36:30 ICT" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSucess -->
+        <test-method signature="tabIsWorking()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:30 ICT" name="tabIsWorking" description="Verify Tab functionality" finished-at="2025-02-20T14:36:31 ICT" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabIsWorking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.Test1@258e2e41]" started-at="2025-02-20T14:36:31 ICT" name="tearDown" finished-at="2025-02-20T14:36:31 ICT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.Test1 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
